@@ -1,0 +1,39 @@
+li{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #80847d;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.check{
+    color: #191a19;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.check--active{
+    color: #21e421;
+}
+
+.TodoItem-p--conplete{
+    text-decoration: line-through;
+}
+
+.delete{
+    font-size: 20px;
+    padding: 10px;
+}
+.delete:hover{
+    color: #e01616;
+    cursor: pointer;
+}

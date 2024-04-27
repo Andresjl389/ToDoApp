@@ -1,0 +1,70 @@
+.TodoForm{
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #252525;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 33px 40px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+label{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1E1E1F;
+    margin-bottom: 26px;
+}
+
+textarea{
+    border: none;
+    background: #F9FBFC;
+    border: 1px solid #202329;
+    border-radius: 10px;
+    color: #1E1E1F;
+    font-size: 15px;
+    padding: 5px;
+    width: 100%;
+    height: 96px;
+    width: calc(100%-25px);
+    outline: none;
+}
+
+textarea:focus{
+    border: 1px solid #43DE6B;
+}
+
+textarea::placeholder{
+    color: #A5A5A5;
+    font-weight: 400;
+}
+
+.TodoForm-buttonContainer{
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.TodoForm-button{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: #202329;
+    font-weight: 400;
+    width: 120px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+}
+
+.TodoForm-button--add{
+    background: #43DE6B;
+}
+.TodoForm-button--cancel{
+    background: #dd4141;
+}

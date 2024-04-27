@@ -1,0 +1,15 @@
+
+
+.search{
+    margin-top: 4vh;
+    width: 40%;
+    border: none;
+    outline: none;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.search:focus{
+    border-bottom: 4px solid #636762;
+}

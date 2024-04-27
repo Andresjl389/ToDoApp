@@ -1,0 +1,48 @@
+.loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.loader1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 8px solid transparent;
+    border-top-color: #2dbb2c;
+    border-left-color: #2dbb2c;
+    border-radius: 50%;
+    animation: loader 1.2s linear infinite;
+}
+
+.loader2{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    border: 8px solid transparent;
+    border-bottom-color: #2cb6bb;
+    border-right-color: #2cb6bb;
+    border-radius: 50%;
+    animation: loader2 1.2s linear infinite;
+}
+
+@keyframes loader{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes loader2{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

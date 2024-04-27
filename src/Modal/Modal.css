@@ -1,0 +1,13 @@
+.ModalBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: #252525a4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+}

@@ -1,0 +1,33 @@
+.CreateButton{
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+    background: #5b5f59;
+    color: #f6f7f6;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: rotate(0);
+    transition: 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CreateButton:hover{
+    transform: rotate(224deg);
+    background: #4f534e;
+}
+
+.CreateButton:active{
+    background: #424540;
+}
+
+.ButtonContainer{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+
